@@ -1,4 +1,5 @@
-<div align='center'><img style="width:30%" src='https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.vhv.rs%2Fviewpic%2Fiohhwhm_portfolio-logo-png-portfolio-text-png-transparent-png%2F&psig=AOvVaw33rHr9ZF9TcEseVlNPpRXf&ust=1697036222590000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCKj3vfDe64EDFQAAAAAdAAAAABAI'/></div>
+<div align='center'><img style="width:30%" src='https://github.com/VishalYadav1311/Portfolio/assets/66304976/b4919dd7-51c8-4a78-abad-9f8123211ff8'/></div>
+  
 
 <h2>About the project</h2>
 
@@ -19,6 +20,6 @@ and achievements. </p>
 <h3 align='center'>Home Page 🏡</h3>
 
 <div align='center'>
-<!-- <img src='https://user-images.githubusercontent.com/105128267/218077675-f50ac9ae-8d2c-4196-aed8-f4490e142960.png'/> -->
-![Alt text](src/assets/homepage.jpeg)
+<img src='https://github.com/VishalYadav1311/Portfolio/assets/66304976/43f349f9-25c5-48f6-a597-e3233d8f13de'/>
+ 
 </div>
