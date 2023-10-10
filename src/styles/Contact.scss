@@ -1,0 +1,38 @@
+.contact {
+    
+  //  background-color: rgb(238, 31, 31);
+    width: 100% ;
+    min-width: fit-content;
+    height: fit-content;
+    padding: 5rem 0rem 2rem 0rem;
+    background-image: linear-gradient(white,rgb(239, 241, 244), rgb(128, 164, 226));
+    //min-height: min-content;
+     >.container {
+        width:70%;
+        min-width: fit-content;
+        margin: 0rem auto;
+        background-color: rgb(128, 164, 226);
+        box-shadow: 0 5px 10px rgb(108, 106, 106);
+        border-radius: 2rem;
+       padding: 4rem 0rem;
+        display: flex;
+        background-image: linear-gradient( white, rgb(204, 216, 236));
+        justify-content:  space-around;
+        align-items: flex-end;
+        flex-wrap: wrap;
+        >.content {
+            padding: 0 10px;
+            min-width: fit-content;
+            >h1{
+                color:rgb(231, 90, 90);
+            }
+        }
+
+         
+            >img{
+                width:30%;
+                height: auto;
+            
+        }
+    }
+}

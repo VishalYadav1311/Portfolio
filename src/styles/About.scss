@@ -1,0 +1,98 @@
+.about {
+    width: 100%;
+    min-width: fit-content;
+    height: fit-content;
+    background-image: linear-gradient(rgb(204, 216, 236), rgb(128, 164, 226));
+
+    >h1 {
+        margin-top: 0;
+        text-align: center;
+    }
+    .btns {
+        text-align: center;
+        margin: 2rem auto;
+
+        .activeabout {
+            color: rgb(255, 255, 255);
+            background-color: rgb(0, 0, 0);
+            border-radius: 2rem;
+        }
+
+        // background-color: aqua;
+        >button {
+            padding: 5px 10px;
+            font-size: larger;
+            font-weight: 600;
+            margin: 3px 5px;
+            border-radius: 2rem;
+            border: 1px solid black;
+            box-shadow: 0 0 10px rgb(66, 65, 65);
+            background-color: rgb(121, 133, 224);
+
+        }
+
+    }
+
+    .container {
+        //  background-color: aqua;
+        width: 90vw;
+        height: fit-content;
+        // margin: auto;
+        margin-top: 2rem;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: center;
+
+        >img {
+            // background-color: aquamarine;
+            width: 40%;
+            height: 20rem;
+            overflow: hidden;
+
+
+        }
+
+        >.about-div {
+            //background-color: bisque;
+            width: 50%;
+            margin: 1rem;
+            height: auto;
+            padding: 2em;
+            font-size: large;
+            font-weight: 500;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            color: rgb(79, 102, 102);
+            >:first-child{
+                 &:hover{
+                color: black;
+                font-size: larger;
+                transition-duration:1s ;
+            }}
+            >:last-child{
+                &:hover{
+                    color: black;
+                    font-size: larger;
+                    transition-duration:1s ;
+                }
+            }
+            
+           
+        }
+
+        >.exp-div {
+            width: 50%;
+            height: fit-content;
+            // background-color: beige;
+
+        }
+
+        @media (max-width:950px) {
+            flex-direction: column-reverse;
+
+        }
+    }
+}
+
+
+ 
