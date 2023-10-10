@@ -6,7 +6,7 @@ import img from "../assets/my-img.jpg";
 import "../styles/Home.scss";
 export default function Home() {
   return (
-    <div className="home" id="home">
+    <div className="home bg-pan-left" id="home">
     <div>
          <div className="hometext">
         <p>Welcome to my world ... I'm</p>
@@ -17,9 +17,9 @@ export default function Home() {
           <BsDownload />
         </button>
       </div>
-      <div className="home-img">
-        <div>
-          <img src={img} />
+      <div className="home-img wobble-hor-bottom">
+        <div >
+          <img  className="bounce-in-top" src={img} />
         </div>
       </div>
      
