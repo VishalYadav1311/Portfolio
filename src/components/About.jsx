@@ -40,7 +40,7 @@ export default function About() {
         <button className="activeabout" onClick={handleclickabout} >About</button>
         <button className="" onClick={handleclickexp}>Experience</button>
       </div>
-      <div className="container">
+      <div className="pagecontainer">
         
           <img src={gif}></img>
          

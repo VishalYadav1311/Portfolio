@@ -1,13 +1,14 @@
 .contact {
     
   //  background-color: rgb(238, 31, 31);
-    width: 100% ;
+   font-family: Gabarito;
+    width: 100vw;
     min-width: fit-content;
     height: fit-content;
     padding: 5rem 0rem 2rem 0rem;
-    background-image: linear-gradient(white,rgb(239, 241, 244), rgb(128, 164, 226));
+    background-image: linear-gradient(  rgb(236, 236, 243), rgb(128, 164, 226));
     //min-height: min-content;
-     >.container {
+     >.container-contact {
         width:70%;
         min-width: fit-content;
         margin: 0rem auto;

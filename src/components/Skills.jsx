@@ -25,7 +25,7 @@ export default function Skills() {
         My <span>Skills</span>
       </h1>
 
-      <div className="container">
+      <div className="container-skill">
         <div className="element-div">
           <div className="element">
             <img className="img" src={html}></img>

@@ -1,24 +1,26 @@
 .skill {
-    background-image: linear-gradient(rgb(128, 164, 226), rgb(204, 216, 236), rgb(255, 255, 255));
+    background-image: linear-gradient(rgb(128, 164, 226), rgb(204, 216, 236), rgb(236, 236, 243));
     position: relative;
-    width: 100%;
+    width: 100vw;
     min-width: fit-content;
     height: auto;
     min-height: 100vh;
+    font-family: Gabarito;
     text-align: center;
 
     >h1 {
         padding-top:1rem ;
         margin-top: 0;
         text-align: center;
+        min-width: fit-content;
 
         >span {
             color: rgb(231, 90, 90);
         }
     }
 
-    >.container {
-        margin: 0 5rem;
+    >.container-skill {
+    
         position: relative;
         width: auto;
         max-width: 100vw;
@@ -42,6 +44,29 @@
                 padding: 1rem;
                 margin: 1rem;
                 text-align: center;
+
+                -webkit-mask-image: linear-gradient(45deg,#000 25%,rgba(0,0,0,.2) 50%,#000 75%);
+                mask-image: linear-gradient(45deg,#000 25%,rgba(0,0,0,.2) 50%,#000 75%);
+                -webkit-mask-size: 800%;
+                mask-size: 800%;
+                -webkit-mask-position: 0;
+                mask-position: 0;
+
+
+                &:hover{
+                    filter:brightness(150%);
+                    transition: mask-position 2s ease,-webkit-mask-position 2s ease;
+    -webkit-mask-position: 120%;
+    mask-position: 120%;
+    opacity: 1;
+                    >img{
+                          scale: 1.2;
+                    }
+                    >.name{
+                        scale: 1.2;
+                    }
+                    
+                }
 
                 .img {
                     width: 80px;

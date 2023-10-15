@@ -9,7 +9,7 @@ import "../styles/Contact.scss";
 export default function Contact() {
   return (
     <div className="contact" id="contact">
-      <div className="container">
+      <div className="container-contact">
         <div className="content">
           <h1> Get In Touch</h1>
           <h3>
