@@ -82,10 +82,14 @@
     z-index: 999999;
     border-radius: 2rem 2rem 0px 0px;
 
-    >button {
-        width: 2rem;
+    >a {
+         text-decoration: none;
+        color: black;
+ >button{
+        width: 6rem;
         border: none;
-        border-radius: 30%;
+        height: 100%;
+        border-radius: 20%;
         background-color: rgb(121, 133, 224);
         cursor: pointer;
 
@@ -93,6 +97,9 @@
             background-color: #fff;
         }
     }
+    }
+    
+   
 
     @media (min-width: 950px) {
         display: none;
