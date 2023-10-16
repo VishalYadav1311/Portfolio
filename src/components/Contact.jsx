@@ -1,6 +1,6 @@
 import React from "react";
 import { BsFillTelephoneFill } from "react-icons/bs";
-import { BiLogoGmail } from "react-icons/Bi";
+import { BiLogoGmail } from "react-icons/bi";
 import { BsFillGeoAltFill } from "react-icons/bs";
 import { BsLinkedin } from "react-icons/bs";
 import letterpost from "../assets/contactt.gif";
