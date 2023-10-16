@@ -7,6 +7,7 @@ import {
   BsEnvelopeFill,
 } from "react-icons/bs";
 import "../styles/Navbar.scss";
+import resume from '../Vishal_Yadav_CV.pdf'
 export default function Navbar() {
   const handleclick = (e) => {
     const ele = document.getElementsByClassName("active");
@@ -34,7 +35,7 @@ export default function Navbar() {
               </a>
             </li>
             <li>
-              <a onClick={handleclick} href="#">
+              <a onClick={handleclick} href="#projects">
                 Projects
               </a>
             </li>
@@ -50,7 +51,7 @@ export default function Navbar() {
             </li>
           </ul>
 
-          <button className="nav-button">Resume</button>
+          <a href={resume} className="nav-button"> Resume </a>
         </div>
       </div>
       <div className="mob-nav">

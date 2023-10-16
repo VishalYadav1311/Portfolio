@@ -15,7 +15,7 @@
         flex-direction: row;
         background-color: rgb(204, 216, 236);
         height: 100%;
-       
+
 
         >.hometext {
             //background-color: antiquewhite;
@@ -31,7 +31,7 @@
 
             >h1 {
                 font-size: 4em;
-               
+
                 letter-spacing: 4px;
                 font-weight: 600;
 
@@ -42,15 +42,19 @@
 
             }
 
-            >.btn {
+            >a {
+                text-decoration: none;
+                color: black;
                 padding: 8px 12px;
                 font-size: 1rem;
                 font-weight: bold;
                 border-radius: 10px;
                 background-color: rgb(121, 133, 224);
-                border: 1px solid black
+                border: 1px solid black;
+                
             }
 
+            
             .btn:hover {
                 color: white;
                 background-color: black;
@@ -76,6 +80,7 @@
             border-radius: 18rem 10rem 12rem 11rem;
             width: 32%;
             overflow: hidden;
+
             >div {
                 .bounce-in-top {
                     -webkit-animation: bounce-in-top 1.5s ease-in-out 0.5s;
@@ -87,9 +92,10 @@
                     animation: wobble-hor-bottom 0.8s both;
                 }
 
-                &:hover >img{
-                    scale: 1.2; 
+                &:hover>img {
+                    scale: 1.2;
                 }
+
                 >img {
                     width: 100%;
                     background-size: contain;
@@ -100,7 +106,7 @@
             }
 
         }
-   
+
         @media (max-width: 1000px) {
             flex-direction: column-reverse;
             line-height: 0.8;
@@ -139,7 +145,7 @@
     }
 }
 
- 
+
 
 
 @-webkit-keyframes bounce-in-top {
@@ -334,6 +340,3 @@
 //         transform: translateX(-6px) rotate(-1.2deg);
 //     }
 // }
-
-
- 
