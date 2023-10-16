@@ -63,6 +63,7 @@
             .icon {
                 margin-left: 0.5rem;
                 padding: 0.5rem;
+                color: black;
                 background-color: rgb(121, 133, 224);
                 border-radius: 10px;
                 border: 1px solid black;
@@ -146,7 +147,14 @@
 }
 
 
-
+@media  (max-width:500px) {
+    .git{
+        display: none;
+    }
+    .link{
+        display: none;
+    }
+}
 
 @-webkit-keyframes bounce-in-top {
     0% {

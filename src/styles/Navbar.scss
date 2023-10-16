@@ -73,7 +73,7 @@
 
 .mob-nav {
     display: flex;
-    background-color: rgb(121, 133, 224);
+    background-color: rgb(55, 57, 95);
     justify-content: space-around;
     position: fixed;
     bottom: 0px;
@@ -86,11 +86,12 @@
          text-decoration: none;
         color: black;
  >button{
-        width: 6rem;
+        width: 2rem;
         border: none;
         height: 100%;
+        color: black;
         border-radius: 20%;
-        background-color: rgb(121, 133, 224);
+        background-color:rgb(55, 57, 95);
         cursor: pointer;
 
         &:hover {
